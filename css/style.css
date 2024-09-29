@@ -1,21 +1,25 @@
-
-
+/* Custom CSS for Top Header */
+:root {
+    --primary-color: #763ce6;
+}
 
 /* Custom CSS for Top Header k lyee */
 .top-header {
-    background-color: #F2184F;
+    background-color: var(--primary-color);
     color: white;
 }
 
 .top-header .nav-link {
     color: white;
-    font-family: 'Poppins', sans-serif; /* Example of font family */
+    font-family: 'Poppins', sans-serif;
+    /* Example of font family */
     font-size: 14px;
     padding: 0 10px;
 }
 
 .top-header .nav-link:hover {
-    color: #ffffffb3; /* Slightly lighter shade on hover */
+    color: #ffffffb3;
+    /* Slightly lighter shade on hover */
     text-decoration: underline;
 }
 
@@ -24,17 +28,22 @@
     align-items: center;
 }
 
-.top-header .fa-facebook-f, .top-header .fa-twitter, .top-header .fa-linkedin-in {
+.top-header .fa-facebook-f,
+.top-header .fa-twitter,
+.top-header .fa-linkedin-in {
     font-size: 16px;
 }
 
-.top-header .fa-facebook-f:hover, .top-header .fa-twitter:hover, .top-header .fa-linkedin-in:hover {
+.top-header .fa-facebook-f:hover,
+.top-header .fa-twitter:hover,
+.top-header .fa-linkedin-in:hover {
     color: #ffffffb3;
 }
+
 /* Bottom Header Styling */
 .bottom-header {
     background-color: white;
-    border-bottom: 2px solid #F2184F;
+    border-bottom: 2px solid var(--primary-color);
 }
 
 .bottom-header .navbar-brand {
@@ -70,6 +79,7 @@
     background-color: #1728e3;
     color: white;
 }
+
 /* Banner Section Styling */
 .banner-section {
     background: url(../image/bg-img.jpg) no-repeat center center;
@@ -77,7 +87,7 @@
     padding: 100px 0;
     position: relative;
     overflow: hidden;
-	height:300px;
+    height: 300px;
 }
 
 .banner-content {
@@ -86,7 +96,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Dark overlay for better text visibility */
+    background: rgba(0, 0, 0, 0.4);
+    /* Dark overlay for better text visibility */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,14 +141,17 @@
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
+
 /* Website Count Section Styling */
 .website-count-section {
-    background-color: #F8F9FA; /* Light background color for contrast */
+    background-color: #F8F9FA;
+    /* Light background color for contrast */
 }
 
 .count-box {
@@ -150,7 +164,7 @@
 }
 
 .count-box i {
-    color: #F2184F;
+    color: var(--primary-color);
     margin-bottom: 15px;
 }
 
@@ -172,6 +186,7 @@
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 /* Services Section Styling */
 .services-section {
     background-color: white;
@@ -179,7 +194,7 @@
 }
 
 .services-heading {
-    color: #F2184F;
+    color: var(--primary-color);
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
@@ -203,7 +218,7 @@
 }
 
 .service-box i {
-    color: #F2184F;
+    color: var(--primary-color);
     margin-bottom: 20px;
 }
 
@@ -225,6 +240,7 @@
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 /* Portfolio Plans Section Styling */
 .portfolio-plans-section {
     background-color: #f9f9f9;
@@ -232,7 +248,7 @@
 }
 
 .plans-heading {
-    color: #F2184F;
+    color: var(--primary-color);
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
@@ -256,7 +272,7 @@
 }
 
 .plan-box i {
-    color: #F2184F;
+    color: var(--primary-color);
     margin-bottom: 20px;
 }
 
@@ -269,7 +285,7 @@
 }
 
 .plan-price {
-    color: #F2184F;
+    color: var(--primary-color);
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
@@ -286,6 +302,7 @@
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 /* Testimonial Section Styling */
 .testimonial-section {
     background-color: #ffffff;
@@ -293,7 +310,7 @@
 }
 
 .testimonial-heading {
-    color: #F2184F;
+    color: var(--primary-color);
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
@@ -321,7 +338,7 @@
     height: 80px;
     object-fit: cover;
     margin-bottom: 20px;
-    border: 3px solid #F2184F;
+    border: 3px solid var(--primary-color);
 }
 
 .testimonial-text {
@@ -333,7 +350,7 @@
 }
 
 .testimonial-name {
-    color: #F2184F;
+    color: var(--primary-color);
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
@@ -345,9 +362,10 @@
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
 }
+
 /* Footer Section Styling */
 .footer-section {
-    background-color: #F2184F;
+    background-color: var(--primary-color);
     color: white;
     padding: 60px 0 20px;
 }
@@ -411,7 +429,7 @@
 
 .btn-subscribe {
     background-color: #fff;
-    color: #F2184F;
+    color: var(--primary-color);
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
@@ -436,6 +454,7 @@
     font-size: 1rem;
     margin: 0;
 }
+
 /* Portfolio Section Styling */
 .portfolio-section {
     background-color: #fff;
@@ -444,10 +463,11 @@
 
 .portfolio-section h2 {
     font-family: 'Poppins', sans-serif;
-    color: #F2184F;
+    color: var(--primary-color);
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .portfolio-card {
     border: none;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -470,7 +490,7 @@
 }
 
 .btn-select {
-    background-color: #F2184F;
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -484,6 +504,7 @@
 .btn-select:hover {
     background-color: #e01341;
 }
+
 /* Registration Section */
 .registration-section {
     padding: 60px 0;
@@ -512,7 +533,7 @@
     top: 50%;
     left: 15px;
     transform: translateY(-50%);
-    color: #F2184F;
+    color: var(--primary-color);
     font-size: 1.2rem;
 }
 
@@ -524,12 +545,12 @@
 }
 
 .form-control:focus {
-    border-color: #F2184F;
+    border-color: var(--primary-color);
     box-shadow: 0 0 0 0.2rem rgba(242, 24, 79, 0.25);
 }
 
 .btn-register {
-    background-color: #F2184F;
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -539,16 +560,17 @@
 }
 
 .btn-register:hover {
-    background-color: #e01747;
+    background-color: var(--primary-color);
 }
 
 .link {
-    color: #F2184F;
+    color: var(--primary-color);
 }
 
 .link:hover {
-    color: #e01747;
+    color: var(--primary-color);
 }
+
 /* Login Section */
 .login-section {
     padding: 60px 0;
@@ -577,7 +599,7 @@
     top: 50%;
     left: 15px;
     transform: translateY(-50%);
-    color: #F2184F;
+    color: var(--primary-color);
     font-size: 1.2rem;
 }
 
@@ -589,12 +611,12 @@
 }
 
 .form-control:focus {
-    border-color: #F2184F;
+    border-color: var(--primary-color);
     box-shadow: 0 0 0 0.2rem rgba(242, 24, 79, 0.25);
 }
 
 .btn-login {
-    background-color: #F2184F;
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -604,19 +626,21 @@
 }
 
 .btn-login:hover {
-    background-color: #e01747;
+    background-color: var(--primary-color);
 }
 
 .link {
-    color: #F2184F;
+    color: var(--primary-color);
 }
 
 .link:hover {
-    color: #e01747;
+    color: var(--primary-color);
 }
+
 /* Banner Section */
 .other-banner-section {
-    background-image: url(../image/bg-img.jpg); /* Update with your image path */
+    background-image: url(../image/bg-img.jpg);
+    /* Update with your image path */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -636,7 +660,7 @@
 }
 
 .other-banner-section .breadcrumb-item.active {
-    color: #f2184f;
+    color: var(--primary-color);
 }
 
 .banner-title {
@@ -652,7 +676,7 @@
 
 .section-heading {
     font-size: 2rem;
-    color: #f2184f;
+    color: var(--primary-color);
     margin-bottom: 20px;
 }
 
@@ -672,6 +696,7 @@
         font-size: 1.8rem;
     }
 }
+
 /* Contact Us Section */
 .contact-us-section {
     background-color: #f9f9f9;
@@ -680,7 +705,7 @@
 
 .section-heading {
     font-size: 2rem;
-    color: #f2184f;
+    color: var(--primary-color);
     margin-bottom: 30px;
 }
 
@@ -694,8 +719,8 @@
 }
 
 .contact-form .btn-primary {
-    background-color: #f2184f;
-    border-color: #f2184f;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .contact-form .btn-primary:hover {
@@ -715,7 +740,7 @@
 }
 
 .contact-info i {
-    color: #f2184f;
+    color: var(--primary-color);
     margin-right: 10px;
 }
 
