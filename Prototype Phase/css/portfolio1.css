@@ -1,0 +1,484 @@
+/* Custom CSS for Top Header */
+.top-header {
+    background-color: #F2184F;
+    color: white;
+}
+
+.top-header .nav-link {
+    color: white;
+    font-family: 'Poppins', sans-serif; /* Example of a beautiful font family */
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.top-header .nav-link:hover {
+    color: #ffffffb3; /* Slightly lighter shade on hover */
+    text-decoration: underline;
+}
+
+.top-header .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.top-header .fa-facebook-f, .top-header .fa-twitter, .top-header .fa-linkedin-in {
+    font-size: 16px;
+}
+
+.top-header .fa-facebook-f:hover, .top-header .fa-twitter:hover, .top-header .fa-linkedin-in:hover {
+    color: #ffffffb3;
+}
+/* Bottom Header Styling */
+.bottom-header {
+    background-color: white;
+    border-bottom: 2px solid #F2184F;
+}
+
+.bottom-header .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-header .logo-img {
+    max-height: 60px;
+}
+
+.bottom-header .navbar-nav .nav-link {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.bottom-header .navbar-nav .nav-link:hover {
+    color: #F2184F;
+}
+
+.bottom-header .navbar-nav .btn-custom {
+    background-color: #F2184F;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.bottom-header .navbar-nav .btn-custom:hover {
+    background-color: #e31746;
+    color: white;
+}
+/* Banner Section Styling */
+.banner-section {
+    background: url(../image/bg-img.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+	height:300px;
+}
+
+.banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for better text visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-out;
+}
+
+.banner-description {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.btn-banner {
+    background-color: #F2184F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: fadeInUp 2s ease-out;
+}
+
+.btn-banner:hover {
+    background-color: #e31746;
+    transform: translateY(-3px);
+}
+
+/* Keyframe animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Website Count Section Styling */
+.website-count-section {
+    background-color: #F8F9FA; /* Light background color for contrast */
+}
+
+.count-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 15px;
+}
+
+.count-box i {
+    color: #F2184F;
+    margin-bottom: 15px;
+}
+
+.count-number {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.count-text {
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+
+.count-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* Services Section Styling */
+.services-section {
+    background-color: white;
+    padding: 60px 0;
+}
+
+.services-heading {
+    color: #F2184F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.services-subheading {
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.service-box {
+    background-color: #F8F9FA;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 30px;
+}
+
+.service-box i {
+    color: #F2184F;
+    margin-bottom: 20px;
+}
+
+.service-title {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.service-description {
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* Portfolio Plans Section Styling */
+.portfolio-plans-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.plans-heading {
+    color: #F2184F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plans-subheading {
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.plan-box {
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 30px;
+}
+
+.plan-box i {
+    color: #F2184F;
+    margin-bottom: 20px;
+}
+
+.plan-title {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-price {
+    color: #F2184F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.plan-description {
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.plan-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* Testimonial Section Styling */
+.testimonial-section {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.testimonial-heading {
+    color: #F2184F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.testimonial-subheading {
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.testimonial-box {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 15px 0;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #F2184F;
+}
+
+.testimonial-text {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.testimonial-name {
+    color: #F2184F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.testimonial-position {
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+/* Footer Section Styling */
+.footer-section {
+    background-color: #F2184F;
+    color: white;
+    padding: 60px 0 20px;
+}
+
+.footer-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer-links,
+.footer-contact {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffe6f0;
+}
+
+.footer-contact i {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.footer-social a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #ffe6f0;
+}
+
+.footer-newsletter .form-control {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.btn-subscribe {
+    background-color: #fff;
+    color: #F2184F;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-subscribe:hover {
+    background-color: #ffe6f0;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-bottom p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+/* Portfolio Section Styling */
+.portfolio-section {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.portfolio-section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #F2184F;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.portfolio-card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card img {
+    border-radius: 8px;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.btn-select {
+    background-color: #F2184F;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn-select:hover {
+    background-color: #e01341;
+}
